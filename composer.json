@@ -1,0 +1,21 @@
+{
+    "name": "noahwilderom/vision-framework",
+    "autoload": {
+        "files": [
+            "src/Vision/Helpers/global.php"
+        ],
+        "psr-4": {
+            "Vision\\": "src/Vision/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Noah Wilderom",
+            "email": "wilderomnoah@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "symfony/var-dumper": "^6.3"
+    }
+}
